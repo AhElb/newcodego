@@ -1,0 +1,563 @@
+.navbar-brand img{
+	width: 150px;
+}
+.navbar{
+	position: fixed;
+	left: 0;
+	right: 0;
+	padding: 15px 0;
+	background-color: transparent;
+	z-index: 10;
+	transition: 1s;
+}
+.navbar-default{
+	border: 0;
+}
+
+.navbar-default .navbar-nav>li>a{
+	    color: rgba(0,0,0,.87);
+    font-size: 17px;
+    font-weight: 500;
+   
+    position: relative;
+    text-decoration: none;
+        margin-top:5px;
+width: fit-content;
+    transition: all .2s ease;
+    z-index: 7;
+}
+.navbar-default .navbar-nav>li>a:hover{
+	color: #002998;
+}
+.navbar-default .navbar-nav>li>a:focus{
+	color: #002998;
+}
+.navbar-default .navbar-nav li{
+	    margin-left: 24px;
+
+}
+
+.get-start a{
+	    background: #002998;
+    background-image: linear-gradient( 
+-125deg
+ ,#002484 0,#0045ff 100%);
+    color: #fff !important;
+    font-weight: 600 !important;
+    border-radius: 100px;
+    font-size: 15px !important;
+    padding: 10px 20px !important;
+    margin-top: 8px !important;
+    text-decoration: none;
+    	    transition: 1s;
+
+}
+
+
+.get-start a:hover{
+    box-shadow: 0px 5px 8px 3px rgb(0 0 0 / 25%);
+	    background-image: linear-gradient( 
+-125deg
+ ,#0045ff 0,#002484 100%);
+	    transition: 1s;
+
+}
+
+.drop-product{
+	position: fixed;
+	left: 0;
+	right: 0;
+
+	    backdrop-filter: blur(50px);
+    background-color: #ffffff20;
+    border-top: 1px solid #d1d1d6;
+    box-shadow: 0 16px 24px rgb(0 0 0 / 8%);
+    cursor: default;
+    padding: 52px 0;
+    display: none;
+   
+    z-index: 10;
+}
+
+.drop-product ul{
+	padding: 0;
+	list-style: none;
+}
+.drop-product ul li{
+
+	margin-top: 15px;
+ 
+
+ }
+.flex-coint{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.drop-product ul li a{
+
+color: rgba(0,0,0,.54);
+    display: inline-block;
+    line-height: 1.25;
+    text-decoration: none;
+    transition: color .15s ease;
+    white-space: nowrap; 
+
+ }
+
+.drop-product ul li a:hover{
+	color:#002998 ;
+	    transition: color .15s ease;
+
+}
+
+
+
+
+
+
+.head-drop h3{
+	    color: rgba(0,0,0,.87);
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 8px;
+}
+
+
+.head-drop h6{
+	font-weight: 500;
+	letter-spacing: 1px;
+	font-size: 16px;
+	width: 80%;
+}
+
+
+.products:hover .drop-product{
+	display: block;
+	transition: 0.2s;
+}
+
+.products:focus .drop-product{
+	display: block;
+	transition: 0.2s;
+}
+
+
+
+.intro{
+	background-image: url(../img/green-piece-1.png);
+	background-repeat: no-repeat;
+	background-position: right bottom;
+	padding: 140px 0;
+}
+
+.intro img:first-child{
+	width: 100%;
+	margin: 25px 0;
+}
+.intro .container{
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
+	padding-top: 100px;
+	padding-bottom: 100px;
+}
+.iphone{
+	    height: 521px;
+    position: absolute;
+    right: 0px;
+    top: 47px !important;
+    width: 329px;
+        transform: matrix(1, 0, 0, 1, 0, 0);
+
+}
+
+.intro h1{
+	font-size: 40px;
+	font-weight: 600;
+	line-height: 1.2;
+
+}
+.intro p{
+
+	    font-size: 18px;
+    max-width: 500px;
+    margin-bottom: 25px;
+}
+
+
+.services{
+	background-image: url(../img/green-piece-2.png);
+	background-repeat: no-repeat;
+	background-position: left ;
+	padding: 140px 0;
+}
+
+
+.single-app-item .icon{
+
+	    text-align: center;
+    margin: auto;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    font-size: 50px;
+    line-height: 80px;
+    transition: all 0.3s;
+    background-color: #3639a4;
+    color: #fff;
+    display: inline-block;
+    margin-bottom: 18px;
+    position: relative;
+    z-index: 0;
+    font-size: 35px;
+}
+
+.single-app-item{
+	text-align: center;
+	    width: 50%;
+    margin: 25px 0;
+}
+
+
+
+
+.single-app-item .content .title {
+    font-size: 22px;
+    line-height: 34px;
+    font-weight: 700;
+}
+
+.services-icons{
+	display: flex;
+	flex-wrap: wrap;
+}
+
+
+.support h1{
+	    font-size: 30px;
+    line-height: 52px;
+    font-weight: 700;
+    color: #16215c;
+    letter-spacing: 1px;
+    line-height: 1.2;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.support p{
+	    font-size: 18px;
+    line-height: 30px;
+    font-weight: 400;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.services .container{
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
+}
+
+.card-content h1{
+	  font-size: 30px;
+    line-height: 52px;
+    font-weight: 700;
+    color: #16215c;
+    letter-spacing: 1px;
+    line-height: 1.2;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+
+
+
+
+.card img{
+	width: 80%;
+}
+
+
+.back-card{
+	position: absolute;
+    left: 47px;
+    z-index: -1;
+    transform: matrix(1, 0, 0, 1, 0, 0);
+    top: 34px;
+    opacity: 0.4;
+}
+
+.icon-card svg{
+	color:#fff ;
+	height: 30px;
+	width: 30px;
+}
+
+
+.icon-card {
+ width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    line-height: 80px;
+    transition: all 0.3s;
+    background-color: #3639a4;
+    color: #fff;
+    display: inline-block;
+  
+    position: relative;
+    z-index: 0;
+    display: flex;
+    font-size: 35px;
+    align-items: center;
+    justify-content: center;
+        min-width: 70px;
+        min-height: 70px;
+
+
+    }
+
+.flex-card{
+
+	display: flex;
+	align-items: center;
+	margin: 30px 5px;
+}
+.flex-card h3{
+	margin:0 15px ;
+	    font-size: 20px;
+
+}
+
+.flex-card p{
+	margin:0 15px ;
+	color: rgba(0,0,0,.38);
+    font-size: 18px;
+}
+
+
+
+
+.card .container{
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
+}
+
+.browser img{
+	width: 100%;
+}
+
+.browser{
+	margin-top: 50px;
+	padding: 50px 0;
+}
+
+
+.browser .container{
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
+}
+.browser h1{
+	    font-size: 30px;
+    line-height: 52px;
+    font-weight: 700;
+    color: #16215c;
+    letter-spacing: 1px;
+    line-height: 1.2;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.browser p{
+	    margin: 0 15px;
+    color: rgba(0,0,0,.38);
+    font-size: 18px;
+    text-align: center;
+}
+.browser .col-md-6{
+	margin-top: 25px;
+}
+
+
+.sutiable {
+
+margin-top: 50px;
+	padding: 100px 0;
+
+	background-image: url(../img/green-piece-3.png);
+	background-repeat: no-repeat;
+	background-position: right ;
+
+}
+
+.sutiable  .container{
+
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
+
+}
+
+.sutiable h1{
+	    font-size: 30px;
+    line-height: 52px;
+    font-weight: 700;
+    color: #16215c;
+    letter-spacing: 1px;
+    line-height: 1.2;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.sutiable p{
+	    margin: 0 15px;
+    color: rgba(0,0,0,.38);
+    font-size: 18px;
+    text-align: center;
+}
+
+
+
+
+
+
+.customer{
+
+	padding: 25% 0;
+	min-height: 700px;
+	background-image: url(../img/bg.png);
+	background-repeat: no-repeat;
+	margin: 100px 0;
+	background-size: cover;
+	background-position: top center;
+
+}
+
+
+.customer h1{
+
+
+	  font-size: 30px;
+    line-height: 52px;
+    font-weight: 700;
+    color: #16215c;
+    letter-spacing: 1px;
+    line-height: 1.2;
+    margin-bottom: 20px;
+    text-align: center;
+
+}
+
+
+
+
+.logo-in img{
+	width: 65% !important;
+	display: flex;
+	align-items: center;
+}
+
+.logo-in{
+	
+
+	    align-items: center;
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+    margin: 5px 0px;
+    height: 60px;
+    box-shadow: -2px 2px 4px 4px rgb(0 0 0 / 13%);
+    background-color: #fff;
+    border-radius: 16px;
+}
+
+.customer .item    {padding: 10px;
+    margin: 10px 0px;}
+
+
+.footer-logo img{
+
+	width: 150px;
+
+
+}
+
+.foote ul{
+	list-style: none;
+	padding: 0;
+}
+.foote ul li{
+	margin: 15px 0;
+}
+
+
+.foote ul li a{
+	text-decoration: none;
+	    color: #9191aa;
+    font-size: 15px;
+}
+.foote ul li a:hover{
+	color: #002998;
+}
+
+
+.footer-widget h6{
+	margin: 15px 5px;
+	font-size: 16px;
+	font-weight: 600;
+	color: #16215c;
+}
+
+.footer-widget p{
+	letter-spacing: 1px;
+	color:#9191aa ;
+	font-weight: 400;
+}
+
+
+
+
+.foote{
+	padding: 50px 0;
+}
+
+
+.footer-widget{
+	margin: 25px 0;
+}
+
+
+.footer-widget  h4{
+
+	color: #16215c;
+	font-weight: 600;
+}
+
+
+.slideInDown{
+	    background-color: #fff;
+    box-shadow: 0 16px 24px rgb(0 0 0 / 8%);
+    transition: 1s;
+}
+
+
+
+
+
+
+@media(max-width: 991px){
+
+	.navbar-default .navbar-nav li {
+    margin-left: 8px;
+}
+.intro {
+	padding: 50px 0;
+}
+}
+
+
+@media (min-width: 1200px){
+.container {
+    width: 1349px;
+}}
